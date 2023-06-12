@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "insert(node*, event):main.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "simulate(node*, ball*):main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "::balls">
+            </PersistentString>
+            <PersistentString
+               value = "::t">
+            </PersistentString>
+            <PersistentString
+               value = "::pq">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "display():main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "::t">
+            </PersistentString>
+            <PersistentString
+               value = "::size">
+            </PersistentString>
+            <PersistentString
+               value = "::pq">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "deleteRoot(node*):main.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "setup():main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "::pq">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "timeToHitVerticalWall(ball*):main.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "predict(ball*):main.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "timeToHitHorizontalWall(ball*):main.cpp">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

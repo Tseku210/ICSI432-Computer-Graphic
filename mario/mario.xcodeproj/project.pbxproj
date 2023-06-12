@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1418A56C2945BF3400ADD232 /* libSDL2_mixer-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1418A56B2945BF3400ADD232 /* libSDL2_mixer-2.0.0.dylib */; };
+		1418A56D2945BF3900ADD232 /* libSDL2_mixer-2.0.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 1418A56B2945BF3400ADD232 /* libSDL2_mixer-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1418A56F2945BF7600ADD232 /* libFLAC.12.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1418A56E2945BF7600ADD232 /* libFLAC.12.dylib */; };
+		1418A5702945BF7600ADD232 /* libFLAC.12.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 1418A56E2945BF7600ADD232 /* libFLAC.12.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1418A5722945BF8A00ADD232 /* libmodplug.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1418A5712945BF8A00ADD232 /* libmodplug.1.dylib */; };
+		1418A5732945BF8A00ADD232 /* libmodplug.1.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 1418A5712945BF8A00ADD232 /* libmodplug.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1418A5752945BF9C00ADD232 /* libogg.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1418A5742945BF9C00ADD232 /* libogg.0.dylib */; };
+		1418A5762945BF9C00ADD232 /* libogg.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 1418A5742945BF9C00ADD232 /* libogg.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1418A5782945BFAC00ADD232 /* libvorbis.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1418A5772945BFAC00ADD232 /* libvorbis.0.dylib */; };
+		1418A5792945BFAC00ADD232 /* libvorbis.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 1418A5772945BFAC00ADD232 /* libvorbis.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1418A57B2945BFC000ADD232 /* libmpg123.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1418A57A2945BFC000ADD232 /* libmpg123.0.dylib */; };
+		1418A57C2945BFC000ADD232 /* libmpg123.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 1418A57A2945BFC000ADD232 /* libmpg123.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1486F6A72937034200CB3882 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1486F6A62937034200CB3882 /* GLUT.framework */; };
+		1486F6A92937034A00CB3882 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1486F6A82937034A00CB3882 /* OpenGL.framework */; };
+		14FB3D7D29389B090062D118 /* libSDL2-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FB3D7C29389B090062D118 /* libSDL2-2.0.0.dylib */; };
+		14FB3D972938B0BB0062D118 /* person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14FB3D952938B0BB0062D118 /* person.cpp */; };
+		14FB3DF62944F6840062D118 /* libSDL2-2.0.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 14FB3D7C29389B090062D118 /* libSDL2-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1486F6992937033300CB3882 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		14FB3DF72944F6840062D118 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1418A56D2945BF3900ADD232 /* libSDL2_mixer-2.0.0.dylib in Embed Libraries */,
+				1418A5792945BFAC00ADD232 /* libvorbis.0.dylib in Embed Libraries */,
+				1418A5702945BF7600ADD232 /* libFLAC.12.dylib in Embed Libraries */,
+				1418A5732945BF8A00ADD232 /* libmodplug.1.dylib in Embed Libraries */,
+				1418A5762945BF9C00ADD232 /* libogg.0.dylib in Embed Libraries */,
+				1418A57C2945BFC000ADD232 /* libmpg123.0.dylib in Embed Libraries */,
+				14FB3DF62944F6840062D118 /* libSDL2-2.0.0.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1418A5362945A62700ADD232 /* mario.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mario.entitlements; sourceTree = "<group>"; };
+		1418A56B2945BF3400ADD232 /* libSDL2_mixer-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2_mixer-2.0.0.dylib"; path = "../../../../../usr/local/Cellar/sdl2_mixer/2.6.2/lib/libSDL2_mixer-2.0.0.dylib"; sourceTree = "<group>"; };
+		1418A56E2945BF7600ADD232 /* libFLAC.12.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libFLAC.12.dylib; path = ../../../../../usr/local/Cellar/flac/1.4.2/lib/libFLAC.12.dylib; sourceTree = "<group>"; };
+		1418A5712945BF8A00ADD232 /* libmodplug.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmodplug.1.dylib; path = ../../../../../usr/local/Cellar/libmodplug/0.8.9.0/lib/libmodplug.1.dylib; sourceTree = "<group>"; };
+		1418A5742945BF9C00ADD232 /* libogg.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libogg.0.dylib; path = ../../../../../usr/local/Cellar/libogg/1.3.5/lib/libogg.0.dylib; sourceTree = "<group>"; };
+		1418A5772945BFAC00ADD232 /* libvorbis.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvorbis.0.dylib; path = ../../../../../usr/local/Cellar/libvorbis/1.3.7/lib/libvorbis.0.dylib; sourceTree = "<group>"; };
+		1418A57A2945BFC000ADD232 /* libmpg123.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmpg123.0.dylib; path = ../../../../../usr/local/Cellar/mpg123/1.31.1/lib/libmpg123.0.dylib; sourceTree = "<group>"; };
+		1486F69B2937033300CB3882 /* mario */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mario; sourceTree = BUILT_PRODUCTS_DIR; };
+		1486F6A62937034200CB3882 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		1486F6A82937034A00CB3882 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		14FB3D7C29389B090062D118 /* libSDL2-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.0.dylib"; path = "../../../../../usr/local/Cellar/sdl2/2.26.0/lib/libSDL2-2.0.0.dylib"; sourceTree = "<group>"; };
+		14FB3D882938A3BE0062D118 /* libSDL2_image-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2_image-2.0.0.dylib"; path = "../../../../../usr/local/Cellar/sdl2_image/2.6.2/lib/libSDL2_image-2.0.0.dylib"; sourceTree = "<group>"; };
+		14FB3D952938B0BB0062D118 /* person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = person.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1486F6982937033300CB3882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1418A56C2945BF3400ADD232 /* libSDL2_mixer-2.0.0.dylib in Frameworks */,
+				1418A57B2945BFC000ADD232 /* libmpg123.0.dylib in Frameworks */,
+				1418A5752945BF9C00ADD232 /* libogg.0.dylib in Frameworks */,
+				14FB3D7D29389B090062D118 /* libSDL2-2.0.0.dylib in Frameworks */,
+				1418A5722945BF8A00ADD232 /* libmodplug.1.dylib in Frameworks */,
+				1486F6A92937034A00CB3882 /* OpenGL.framework in Frameworks */,
+				1418A5782945BFAC00ADD232 /* libvorbis.0.dylib in Frameworks */,
+				1486F6A72937034200CB3882 /* GLUT.framework in Frameworks */,
+				1418A56F2945BF7600ADD232 /* libFLAC.12.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1486F6922937033300CB3882 = {
+			isa = PBXGroup;
+			children = (
+				1486F69D2937033300CB3882 /* mario */,
+				1486F69C2937033300CB3882 /* Products */,
+				1486F6A52937034200CB3882 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1486F69C2937033300CB3882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1486F69B2937033300CB3882 /* mario */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1486F69D2937033300CB3882 /* mario */ = {
+			isa = PBXGroup;
+			children = (
+				1418A5362945A62700ADD232 /* mario.entitlements */,
+				14FB3D952938B0BB0062D118 /* person.cpp */,
+			);
+			path = mario;
+			sourceTree = "<group>";
+		};
+		1486F6A52937034200CB3882 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1418A57A2945BFC000ADD232 /* libmpg123.0.dylib */,
+				1418A5772945BFAC00ADD232 /* libvorbis.0.dylib */,
+				1418A5742945BF9C00ADD232 /* libogg.0.dylib */,
+				1418A5712945BF8A00ADD232 /* libmodplug.1.dylib */,
+				1418A56E2945BF7600ADD232 /* libFLAC.12.dylib */,
+				1418A56B2945BF3400ADD232 /* libSDL2_mixer-2.0.0.dylib */,
+				14FB3D882938A3BE0062D118 /* libSDL2_image-2.0.0.dylib */,
+				14FB3D7C29389B090062D118 /* libSDL2-2.0.0.dylib */,
+				1486F6A82937034A00CB3882 /* OpenGL.framework */,
+				1486F6A62937034200CB3882 /* GLUT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1486F69A2937033300CB3882 /* mario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1486F6A22937033300CB3882 /* Build configuration list for PBXNativeTarget "mario" */;
+			buildPhases = (
+				1486F6972937033300CB3882 /* Sources */,
+				1486F6982937033300CB3882 /* Frameworks */,
+				1486F6992937033300CB3882 /* CopyFiles */,
+				14FB3DF72944F6840062D118 /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mario;
+			productName = mario;
+			productReference = 1486F69B2937033300CB3882 /* mario */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1486F6932937033300CB3882 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					1486F69A2937033300CB3882 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 1486F6962937033300CB3882 /* Build configuration list for PBXProject "mario" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1486F6922937033300CB3882;
+			productRefGroup = 1486F69C2937033300CB3882 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1486F69A2937033300CB3882 /* mario */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1486F6972937033300CB3882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14FB3D972938B0BB0062D118 /* person.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1486F6A02937033300CB3882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1486F6A12937033300CB3882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1486F6A32937033300CB3882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = mario/mario.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M72GVPRP5H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXCLUDED_ARCHS = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sdl2/2.26.0/lib,
+					/usr/local/Cellar/sdl2_image/2.6.2/lib,
+					/usr/local/Cellar/sdl2_mixer/2.6.2/lib,
+					/usr/local/Cellar/flac/1.4.2/lib,
+					/usr/local/Cellar/libmodplug/0.8.9.0/lib,
+					/usr/local/Cellar/libogg/1.3.5/lib,
+					/usr/local/Cellar/libvorbis/1.3.7/lib,
+					/usr/local/Cellar/mpg123/1.31.1/lib,
+				);
+				OTHER_CFLAGS = "-Wno-deprecated";
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1486F6A42937033300CB3882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = mario/mario.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M72GVPRP5H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXCLUDED_ARCHS = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sdl2/2.26.0/lib,
+					/usr/local/Cellar/sdl2_image/2.6.2/lib,
+					/usr/local/Cellar/sdl2_mixer/2.6.2/lib,
+					/usr/local/Cellar/flac/1.4.2/lib,
+					/usr/local/Cellar/libmodplug/0.8.9.0/lib,
+					/usr/local/Cellar/libogg/1.3.5/lib,
+					/usr/local/Cellar/libvorbis/1.3.7/lib,
+					/usr/local/Cellar/mpg123/1.31.1/lib,
+				);
+				OTHER_CFLAGS = "-Wno-deprecated";
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1486F6962937033300CB3882 /* Build configuration list for PBXProject "mario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1486F6A02937033300CB3882 /* Debug */,
+				1486F6A12937033300CB3882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1486F6A22937033300CB3882 /* Build configuration list for PBXNativeTarget "mario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1486F6A32937033300CB3882 /* Debug */,
+				1486F6A42937033300CB3882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1486F6932937033300CB3882 /* Project object */;
+}

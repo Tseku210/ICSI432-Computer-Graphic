@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1418A5D2294EB99700ADD232 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1418A5D1294EB99700ADD232 /* main.cpp */; };
+		1418A5DA294EBA4A00ADD232 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1418A5D9294EBA4A00ADD232 /* GLUT.framework */; };
+		1418A5DC294EBA5000ADD232 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1418A5DB294EBA5000ADD232 /* OpenGL.framework */; };
+		1418A5DE294EBAA100ADD232 /* libFLAC.12.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1418A5DD294EBAA100ADD232 /* libFLAC.12.dylib */; };
+		1418A5E0294EBAB600ADD232 /* libSDL2-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1418A5DF294EBAB600ADD232 /* libSDL2-2.0.0.dylib */; };
+		1418A5E2294EBACE00ADD232 /* libmodplug.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1418A5E1294EBACE00ADD232 /* libmodplug.1.dylib */; };
+		1418A5E4294EBADE00ADD232 /* libogg.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1418A5E3294EBADE00ADD232 /* libogg.0.dylib */; };
+		1418A5E6294EBB0000ADD232 /* libvorbis.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1418A5E5294EBB0000ADD232 /* libvorbis.0.dylib */; };
+		1418A5E8294EBB1D00ADD232 /* libSDL2_mixer-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1418A5E7294EBB1D00ADD232 /* libSDL2_mixer-2.0.0.dylib */; };
+		1418A5E9294EBB2100ADD232 /* libFLAC.12.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 1418A5DD294EBAA100ADD232 /* libFLAC.12.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1418A5EB294EBB2300ADD232 /* libmodplug.1.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 1418A5E1294EBACE00ADD232 /* libmodplug.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1418A5EC294EBB2400ADD232 /* libogg.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 1418A5E3294EBADE00ADD232 /* libogg.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1418A5ED294EBB2600ADD232 /* libSDL2_mixer-2.0.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 1418A5E7294EBB1D00ADD232 /* libSDL2_mixer-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1418A5EE294EBB2800ADD232 /* libSDL2-2.0.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 1418A5DF294EBAB600ADD232 /* libSDL2-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1418A5EF294EBB2900ADD232 /* libvorbis.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 1418A5E5294EBB0000ADD232 /* libvorbis.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1418A5F1294EBDC000ADD232 /* libmpg123.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1418A5F0294EBDC000ADD232 /* libmpg123.0.dylib */; };
+		1418A5F2294EBDC000ADD232 /* libmpg123.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 1418A5F0294EBDC000ADD232 /* libmpg123.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1418A5CC294EB99700ADD232 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1418A5EA294EBB2100ADD232 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1418A5EC294EBB2400ADD232 /* libogg.0.dylib in Embed Libraries */,
+				1418A5EF294EBB2900ADD232 /* libvorbis.0.dylib in Embed Libraries */,
+				1418A5EB294EBB2300ADD232 /* libmodplug.1.dylib in Embed Libraries */,
+				1418A5EE294EBB2800ADD232 /* libSDL2-2.0.0.dylib in Embed Libraries */,
+				1418A5ED294EBB2600ADD232 /* libSDL2_mixer-2.0.0.dylib in Embed Libraries */,
+				1418A5F2294EBDC000ADD232 /* libmpg123.0.dylib in Embed Libraries */,
+				1418A5E9294EBB2100ADD232 /* libFLAC.12.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1418A5CE294EB99700ADD232 /* geometry dash */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "geometry dash"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1418A5D1294EB99700ADD232 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1418A5D9294EBA4A00ADD232 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		1418A5DB294EBA5000ADD232 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		1418A5DD294EBAA100ADD232 /* libFLAC.12.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libFLAC.12.dylib; path = ../../../../../usr/local/Cellar/flac/1.4.2/lib/libFLAC.12.dylib; sourceTree = "<group>"; };
+		1418A5DF294EBAB600ADD232 /* libSDL2-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.0.dylib"; path = "../../../../../usr/local/Cellar/sdl2/2.26.0/lib/libSDL2-2.0.0.dylib"; sourceTree = "<group>"; };
+		1418A5E1294EBACE00ADD232 /* libmodplug.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmodplug.1.dylib; path = ../../../../../usr/local/Cellar/libmodplug/0.8.9.0/lib/libmodplug.1.dylib; sourceTree = "<group>"; };
+		1418A5E3294EBADE00ADD232 /* libogg.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libogg.0.dylib; path = ../../../../../usr/local/Cellar/libogg/1.3.5/lib/libogg.0.dylib; sourceTree = "<group>"; };
+		1418A5E5294EBB0000ADD232 /* libvorbis.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvorbis.0.dylib; path = ../../../../../usr/local/Cellar/libvorbis/1.3.7/lib/libvorbis.0.dylib; sourceTree = "<group>"; };
+		1418A5E7294EBB1D00ADD232 /* libSDL2_mixer-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2_mixer-2.0.0.dylib"; path = "../../../../../usr/local/Cellar/sdl2_mixer/2.6.2/lib/libSDL2_mixer-2.0.0.dylib"; sourceTree = "<group>"; };
+		1418A5F0294EBDC000ADD232 /* libmpg123.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmpg123.0.dylib; path = ../../../../../usr/local/Cellar/mpg123/1.31.1/lib/libmpg123.0.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1418A5CB294EB99700ADD232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1418A5E8294EBB1D00ADD232 /* libSDL2_mixer-2.0.0.dylib in Frameworks */,
+				1418A5F1294EBDC000ADD232 /* libmpg123.0.dylib in Frameworks */,
+				1418A5E6294EBB0000ADD232 /* libvorbis.0.dylib in Frameworks */,
+				1418A5E4294EBADE00ADD232 /* libogg.0.dylib in Frameworks */,
+				1418A5E2294EBACE00ADD232 /* libmodplug.1.dylib in Frameworks */,
+				1418A5E0294EBAB600ADD232 /* libSDL2-2.0.0.dylib in Frameworks */,
+				1418A5DE294EBAA100ADD232 /* libFLAC.12.dylib in Frameworks */,
+				1418A5DC294EBA5000ADD232 /* OpenGL.framework in Frameworks */,
+				1418A5DA294EBA4A00ADD232 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1418A5C5294EB99700ADD232 = {
+			isa = PBXGroup;
+			children = (
+				1418A5D0294EB99700ADD232 /* geometry dash */,
+				1418A5CF294EB99700ADD232 /* Products */,
+				1418A5D8294EBA4A00ADD232 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1418A5CF294EB99700ADD232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1418A5CE294EB99700ADD232 /* geometry dash */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1418A5D0294EB99700ADD232 /* geometry dash */ = {
+			isa = PBXGroup;
+			children = (
+				1418A5D1294EB99700ADD232 /* main.cpp */,
+			);
+			path = "geometry dash";
+			sourceTree = "<group>";
+		};
+		1418A5D8294EBA4A00ADD232 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1418A5F0294EBDC000ADD232 /* libmpg123.0.dylib */,
+				1418A5E7294EBB1D00ADD232 /* libSDL2_mixer-2.0.0.dylib */,
+				1418A5E5294EBB0000ADD232 /* libvorbis.0.dylib */,
+				1418A5E3294EBADE00ADD232 /* libogg.0.dylib */,
+				1418A5E1294EBACE00ADD232 /* libmodplug.1.dylib */,
+				1418A5DF294EBAB600ADD232 /* libSDL2-2.0.0.dylib */,
+				1418A5DD294EBAA100ADD232 /* libFLAC.12.dylib */,
+				1418A5DB294EBA5000ADD232 /* OpenGL.framework */,
+				1418A5D9294EBA4A00ADD232 /* GLUT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1418A5CD294EB99700ADD232 /* geometry dash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1418A5D5294EB99700ADD232 /* Build configuration list for PBXNativeTarget "geometry dash" */;
+			buildPhases = (
+				1418A5CA294EB99700ADD232 /* Sources */,
+				1418A5CB294EB99700ADD232 /* Frameworks */,
+				1418A5CC294EB99700ADD232 /* CopyFiles */,
+				1418A5EA294EBB2100ADD232 /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "geometry dash";
+			productName = "geometry dash";
+			productReference = 1418A5CE294EB99700ADD232 /* geometry dash */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1418A5C6294EB99700ADD232 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					1418A5CD294EB99700ADD232 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 1418A5C9294EB99700ADD232 /* Build configuration list for PBXProject "geometry dash" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1418A5C5294EB99700ADD232;
+			productRefGroup = 1418A5CF294EB99700ADD232 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1418A5CD294EB99700ADD232 /* geometry dash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1418A5CA294EB99700ADD232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1418A5D2294EB99700ADD232 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1418A5D3294EB99700ADD232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1418A5D4294EB99700ADD232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1418A5D6294EB99700ADD232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M72GVPRP5H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/flac/1.4.2/lib,
+					/usr/local/Cellar/sdl2/2.26.0/lib,
+					/usr/local/Cellar/libmodplug/0.8.9.0/lib,
+					/usr/local/Cellar/libogg/1.3.5/lib,
+					/usr/local/Cellar/libvorbis/1.3.7/lib,
+					/usr/local/Cellar/sdl2_mixer/2.6.2/lib,
+					/usr/local/Cellar/mpg123/1.31.1/lib,
+				);
+				OTHER_CFLAGS = "-Wno-deprecated";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1418A5D7294EB99700ADD232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M72GVPRP5H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/flac/1.4.2/lib,
+					/usr/local/Cellar/sdl2/2.26.0/lib,
+					/usr/local/Cellar/libmodplug/0.8.9.0/lib,
+					/usr/local/Cellar/libogg/1.3.5/lib,
+					/usr/local/Cellar/libvorbis/1.3.7/lib,
+					/usr/local/Cellar/sdl2_mixer/2.6.2/lib,
+					/usr/local/Cellar/mpg123/1.31.1/lib,
+				);
+				OTHER_CFLAGS = "-Wno-deprecated";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1418A5C9294EB99700ADD232 /* Build configuration list for PBXProject "geometry dash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1418A5D3294EB99700ADD232 /* Debug */,
+				1418A5D4294EB99700ADD232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1418A5D5294EB99700ADD232 /* Build configuration list for PBXNativeTarget "geometry dash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1418A5D6294EB99700ADD232 /* Debug */,
+				1418A5D7294EB99700ADD232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1418A5C6294EB99700ADD232 /* Project object */;
+}

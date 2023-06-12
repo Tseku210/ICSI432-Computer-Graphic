@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "timer(int):main.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "pop(node**):main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "balls">
+            </PersistentString>
+            <PersistentString
+               value = "dt">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "simulate(node*, ball*):main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "balls">
+            </PersistentString>
+            <PersistentString
+               value = "::t">
+            </PersistentString>
+            <PersistentString
+               value = "::pq">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "timeToHit(ball*, ball*):main.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "main:main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "balls">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "timeToHitVerticalWall(ball*):main.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "display():main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "pq">
+            </PersistentString>
+            <PersistentString
+               value = "balls">
+            </PersistentString>
+            <PersistentString
+               value = "::pq">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "predict(ball*):main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "pq">
+            </PersistentString>
+            <PersistentString
+               value = "balls">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "newNode(event):main.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "bounceOff(ball*, ball*):main.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "push(node**, event):main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "pq">
+            </PersistentString>
+            <PersistentString
+               value = "balls">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "move(ball*, double):main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "balls">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "isValid(event*):main.cpp">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
